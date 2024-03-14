@@ -1,0 +1,286 @@
+/* CSS for Home page */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 650px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-image: url(e-waste-management.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.nav-bar .title{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 600;
+    cursor: pointer;
+  /*  margin-left: 65px;*/
+}
+
+span{
+    color: crimson;
+}
+
+.nav-bar p{
+    position: absolute;
+    margin-top: 100px;
+   /* margin-left: 15px;*/
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+
+.menu li a:hover{
+    color: crimson;
+    border-radius: 10px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+}
+
+.home{
+    height: 400px;
+    padding-left: 75px;
+    padding-top: 100px;
+}
+
+.title-1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* CSS for Section2 */
+
+#section2{
+  /*  margin-top: 20px;*/
+}
+
+.about{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.pic{
+  /*  margin-top: 30px;*/
+    margin-left: 40px;
+    background-image: url(cont-bg.gif);
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    /*border: 2px solid black;*/
+    border-radius: 5px;      
+}
+
+.text{
+    margin-top: 30px;
+    margin-left: 100px;
+    height:300px;
+    width: 750px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: left;
+}
+/*
+ CSS for Section3 
+#section3{
+    margin-top: 30px;   
+}
+
+.food{
+    height:900px;
+    width:100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foods li{
+    list-style: none;
+    display: inline-block;
+}
+
+.item1{
+    height:390px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    border:2px solid black;
+}
+
+.foodpic{
+    height: 300px;
+    width: 296px;
+    border-radius:5px;
+}
+
+.foods li img:hover{
+    color: crimson;
+    border-radius: 10px;
+    border: 3px solid crimson;
+    cursor: pointer;
+}
+
+.b1{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px; 
+    border: 2px solid ;
+    width: 200px;
+}
+
+.foods li div{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+
+.foods li .button1:hover{
+    color: crimson;
+    border-radius: 10px;
+    border: 3px solid crimson;
+    cursor: pointer;
+}   
+*/
+/* CSS for Section4 */
+#section4{
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact-page{
+    width: 100%;
+    max-width: 1400px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+h2{
+    width: 100%;
+    margin-bottom: 80px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+  
+.contact-info, .contact-form{
+    flex: 1;
+}
+  
+.item2{
+    margin-top: 50px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #322;
+}
+  
+.icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+  
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.textb{
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    background-color: #222222;
+    border-radius: 10px;
+    color: #fff;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+  
+textarea{
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    padding: 12px;
+    background-color: #222222;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+  
+.btn{
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #222222;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s linear;
+}
+  
+.btn:hover{
+    background-color: transparent;
+    border: 4px solid crimson;
+    font-weight: 600;
+    border-radius: 15px;
+    color: crimson;
+}

@@ -1,0 +1,19 @@
+.container1{
+    height: 100vh;
+    width: 110%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-image: url(wms3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 > div > div
+{
+    font-weight: bolder;
+    margin-top: 200px;
+}
+body { overflow-x: hidden;
+    overflow-y: hidden; }
+
+  

@@ -1,0 +1,12 @@
+| Task                                   | Duration  | Start Date | End Date   | Dependencies                  |
+|----------------------------------------|-----------|------------|------------|-------------------------------|
+| Project Initiation                     | 1 week    | 2024-02-01 | 2024-02-05 | -                             |
+| Problem Analysis and                   | 1 week    | 2024-02-06 | 2024-02-17 | Project Initiation            |
+| implementation planning                
+| System Design                          | 1 week    | 2024-02-18 | 2024-03-03 | Requirements Gathering        |
+| Database Design                        | 1 week    | 2024-03-04 | 2024-03-15 | System Design                 |
+| Frontend (User)                        | 1 week    | 2024-03-16 | 2024-04-04 | Requirements Gathering        |
+| Frontend (Admin)                       | 1 week    | 2024-03-16 | 2024-04-04 | Requirements Gathering        |
+| Backend (User)                         | 1/2 week  | 2024-04-05 | 2024-04-24 | Database Design, Frontend Dev |
+| Backend (Admin)                        | 1/2 week  | 2024-04-05 | 2024-04-24 | Database Design, Frontend Dev |
+| Testing                                | 1 week    | 2024-04-25 | 2024-05-09 | Backend Development           |
